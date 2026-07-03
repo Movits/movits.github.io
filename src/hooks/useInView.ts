@@ -1,7 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 
-/** Revela uma vez quando o elemento entra no viewport. */
-export function useInView<T extends HTMLElement>(threshold = 0.15) {
+/**
+ * Revela uma vez quando o elemento entra no viewport.
+ * threshold 0 + rootMargin negativo em vez de um threshold proporcional:
+ * seções mais altas que o viewport nunca atingem ratios como 0.15
+ * (o ratio máximo é viewport/elemento), o que deixaria a seção invisível.
+ */
+export function useInView<T extends HTMLElement>() {
   const ref = useRef<T | null>(null)
   const [inView, setInView] = useState(false)
 
@@ -15,11 +20,11 @@ export function useInView<T extends HTMLElement>(threshold = 0.15) {
           io.disconnect()
         }
       },
-      { threshold },
+      { threshold: 0, rootMargin: '0px 0px -10% 0px' },
     )
     io.observe(el)
     return () => io.disconnect()
-  }, [threshold])
+  }, [])
 
   return { ref, inView }
 }

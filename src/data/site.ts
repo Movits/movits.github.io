@@ -1,4 +1,4 @@
-export const SITE_NAME = import.meta.env.VITE_SITE_NAME ?? 'Roberto França'
+export const SITE_NAME = 'Roberto França'
 export const SITE_URL = 'https://movits.github.io'
 export const EMAIL = 'robertomovits@gmail.com'
 export const GITHUB_URL = 'https://github.com/Movits'

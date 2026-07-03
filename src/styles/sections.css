@@ -455,7 +455,7 @@
 .status-chip {
   font-size: 0.7rem;
   font-weight: 600;
-  color: var(--accent-2);
+  color: var(--accent-2-light);
   background: var(--accent-2-dim);
   border: 1px solid rgba(139, 92, 246, 0.3);
   border-radius: 999px;
@@ -551,9 +551,10 @@
 
 .footer {
   border-top: 1px solid var(--border);
-  padding-top: var(--space-3);
+  padding: var(--space-3) 0 var(--space-4);
   color: var(--muted);
   font-size: var(--fs-small);
+  text-align: center;
 }
 
 /* ---------- Responsivo ---------- */

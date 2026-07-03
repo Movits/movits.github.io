@@ -2,7 +2,7 @@
 import { chromium } from 'playwright'
 import { mkdir } from 'node:fs/promises'
 
-const BASE = 'http://localhost:5173'
+const BASE = process.env.QA_BASE ?? 'http://localhost:5173'
 const OUT = process.argv[2] ?? 'qa-shots'
 await mkdir(OUT, { recursive: true })
 

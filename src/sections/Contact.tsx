@@ -1,7 +1,7 @@
 import type { CSSProperties } from 'react'
 import { Section } from '../components/Section'
 import { GitHubIcon, LinkedInIcon, MailIcon, WorkanaIcon } from '../components/Icons'
-import { EMAIL, GITHUB_URL, LINKEDIN_URL, SITE_NAME, WORKANA_URL } from '../data/site'
+import { EMAIL, GITHUB_URL, LINKEDIN_URL, WORKANA_URL } from '../data/site'
 import { useLanguage } from '../i18n/LanguageContext'
 
 const SOCIAL_LINKS = [
@@ -36,11 +36,6 @@ export function Contact() {
           </li>
         ))}
       </ul>
-      <footer className="footer">
-        <p>
-          {'©'} {new Date().getFullYear()} {SITE_NAME} {'·'} {contact.footerNote}
-        </p>
-      </footer>
     </Section>
   )
 }

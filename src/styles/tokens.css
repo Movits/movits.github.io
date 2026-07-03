@@ -10,6 +10,7 @@
   --muted: #9aa1b5;
   --accent-1: #22d3ee;
   --accent-2: #8b5cf6;
+  --accent-2-light: #a78bfa;
   --accent-1-dim: rgba(34, 211, 238, 0.12);
   --accent-2-dim: rgba(139, 92, 246, 0.12);
   --gradient: linear-gradient(135deg, var(--accent-1), var(--accent-2));

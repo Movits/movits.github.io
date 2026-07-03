@@ -51,6 +51,11 @@ button {
   border-radius: 4px;
 }
 
+/* Alvo do skip link: foco programático não deve desenhar anel na página toda */
+main:focus {
+  outline: none;
+}
+
 /* Camadas: canvas 3D fixo atrás, conteúdo na frente */
 .scene-canvas {
   position: fixed;
@@ -170,7 +175,8 @@ button {
 }
 
 .lang-toggle button.active {
-  color: #fff;
+  color: var(--bg);
+  font-weight: 700;
 }
 
 .lang-toggle .lang-pill {
@@ -200,9 +206,11 @@ button {
   transition: transform 0.2s, box-shadow 0.2s, background 0.2s, border-color 0.2s;
 }
 
+/* Texto escuro sobre o gradiente: branco não atinge 4.5:1 de contraste. */
 .btn-primary {
   background: var(--gradient);
-  color: #fff;
+  color: var(--bg);
+  font-weight: 700;
 }
 
 .btn-primary:hover {

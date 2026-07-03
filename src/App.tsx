@@ -8,6 +8,7 @@ import { Projects } from './sections/Projects'
 import { OtherProjects } from './sections/OtherProjects'
 import { Skills } from './sections/Skills'
 import { Contact } from './sections/Contact'
+import { SITE_NAME } from './data/site'
 import { startScrollTracking } from './scene/scrollStore'
 import { supportsWebGL } from './scene/util'
 import { useReducedMotion } from './hooks/useReducedMotion'
@@ -29,7 +30,7 @@ function Page() {
 
   return (
     <>
-      <a className="skip-link" href="#about">
+      <a className="skip-link" href="#main">
         {content.a11y.skipToContent}
       </a>
       {show3D && (
@@ -39,7 +40,7 @@ function Page() {
       )}
       <div className="page">
         <Navbar />
-        <main>
+        <main id="main" tabIndex={-1}>
           <Hero />
           <About />
           <Experience />
@@ -48,6 +49,13 @@ function Page() {
           <Skills />
           <Contact />
         </main>
+        <footer className="footer">
+          <div className="container">
+            <p>
+              {'©'} {new Date().getFullYear()} {SITE_NAME} {'·'} {content.contact.footerNote}
+            </p>
+          </div>
+        </footer>
       </div>
     </>
   )
