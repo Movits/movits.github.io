@@ -21,8 +21,8 @@ export const pt: Content = {
     title: 'Sobre mim',
     paragraphs: [
       'Sou desenvolvedor full stack baseado em Brasília, com mais de 3 anos criando bots, automações e integrações em Python e JavaScript/TypeScript.',
-      'Atualmente sou estagiário de programação na Câmara Legislativa do DF (Assessoria de Projetos — ASSEPRO, Gestão de Pessoas), atuando na arquitetura e nos testes de uma ferramenta interna. Também trabalho como freelancer full stack, entregando sites de alta performance, aplicativos com React Native/Expo e automações de processos.',
-      'Sou membro do Conselho de IA da Associação Comercial do DF e atendo clientes em português, inglês e espanhol.',
+      'Atualmente sou estagiário de programação na Câmara Legislativa do DF (Assessoria de Projetos — ASSEPRO, Gestão de Pessoas), apoiando a arquitetura e os testes de uma ferramenta interna, e lidero o desenvolvimento da WRW, plataforma de networking com IA para empreendedoras. Também trabalho como freelancer full stack, entregando sites de alta performance, aplicativos com React Native/Expo e automações de processos.',
+      'Atendo clientes em português, inglês e espanhol.',
     ],
     avatarAlt: 'Foto de perfil de Roberto',
   },
@@ -30,25 +30,31 @@ export const pt: Content = {
     title: 'Experiência',
     items: [
       {
-        period: 'Atual',
+        period: 'Ago 2026 — Atual',
+        role: 'Desenvolvedor Full Stack e Líder de Projeto',
+        org: 'WRW — Women Rocking the World',
+        description:
+          'Lidero uma equipe de 4 desenvolvedores e a comunicação com a cliente em uma plataforma de networking com IA para empreendedoras (React, tRPC, MySQL e Google Gemini). Primeira versão entregue em 16/09/2026.',
+      },
+      {
+        period: 'Jun 2026 — Atual',
         role: 'Estagiário de Programação',
         org: 'Câmara Legislativa do DF · ASSEPRO, Gestão de Pessoas',
-        description:
-          'Arquitetura e testes de uma ferramenta interna usada na Câmara, participando do ciclo de desenvolvimento de software no setor público.',
+        description: 'Apoio à arquitetura e aos testes de uma ferramenta interna usada na Câmara.',
       },
       {
-        period: 'Jan 2024 — Atual',
+        period: '2025 — Atual',
         role: 'Desenvolvedor Full Stack Freelancer',
-        org: 'Workana',
+        org: 'Clientes diretos',
         description:
-          'Sites de alta performance, bots e automações para clientes, em Python e JavaScript/TypeScript — atendimento em português, inglês e espanhol.',
+          'Sites de alta performance, landing pages e automações para clientes, em Python e JavaScript/TypeScript — atendimento em português, inglês e espanhol.',
       },
       {
-        period: '2021 — Atual',
-        role: 'Membro',
-        org: 'Conselho de IA e ACDF Jovem · Associação Comercial do DF',
+        period: 'Jun 2020 — 2026',
+        role: 'Professor de Inglês',
+        org: 'Casa Marytza Macedo e Joyful Village',
         description:
-          'Participação em programas e eventos de tecnologia e inovação.',
+          'Aulas individuais, em grupo e para empresas, online e presenciais; criação de materiais e de um curso preparatório para o Duolingo English Test.',
       },
     ],
   },
@@ -72,7 +78,7 @@ export const pt: Content = {
         id: 'apologetica',
         name: 'APPologética',
         description:
-          'Aplicativo católico de apologética 100% offline e bilíngue: mais de 85 artigos com fontes, Bíblia completa, quiz e ferramentas de oração. Um único codebase React Native + Expo para Android, iOS e web — apps nas lojas em breve.',
+          'Aplicativo católico de apologética bilíngue, com todo o conteúdo disponível offline: 83 artigos com fontes, duas Bíblias completas, quiz e ferramentas de oração. Um único codebase React Native + Expo para Android, iOS e web — apps nas lojas em breve.',
         tags: ['React Native', 'Expo', 'React 19', 'Firebase', 'Sentry', 'i18n PT/EN'],
         repoUrl: 'https://github.com/Movits/apologetica-app',
         liveUrl: 'https://movits.github.io/apologetica-app/',
