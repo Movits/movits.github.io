@@ -50,13 +50,6 @@ export const pt: Content = {
           'Sites de alta performance, landing pages e automações para clientes, em Python e JavaScript/TypeScript — atendimento em português, inglês e espanhol.',
       },
       {
-        period: '2017 — 2026',
-        role: 'Professor de Inglês',
-        org: 'Casa Marytza Macedo e Joyful Village',
-        description:
-          'Aulas individuais, em grupo e para empresas, online e presenciais; criação de materiais e de um curso preparatório para o Duolingo English Test.',
-      },
-      {
         period: '2021 — Atual',
         role: 'Membro',
         org: 'Conselho de IA e ACDF Jovem · Associação Comercial do DF',

@@ -50,13 +50,6 @@ export const en: Content = {
           'High-performance websites, landing pages and automations for clients, in Python and JavaScript/TypeScript — serving clients in Portuguese, English and Spanish.',
       },
       {
-        period: '2017 — 2026',
-        role: 'English Teacher',
-        org: 'Casa Marytza Macedo & Joyful Village',
-        description:
-          'One-on-one, group and corporate classes, online and in person; created teaching materials and a Duolingo English Test prep course.',
-      },
-      {
         period: '2021 — Present',
         role: 'Member',
         org: 'AI Council & ACDF Jovem · Federal District Trade Association',
