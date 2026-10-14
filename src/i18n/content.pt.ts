@@ -22,7 +22,7 @@ export const pt: Content = {
     paragraphs: [
       'Sou desenvolvedor full stack baseado em Brasília, com mais de 3 anos criando bots, automações e integrações em Python e JavaScript/TypeScript.',
       'Atualmente sou estagiário de programação na Câmara Legislativa do DF (Assessoria de Projetos — ASSEPRO, Gestão de Pessoas), apoiando a arquitetura e os testes de uma ferramenta interna, e lidero o desenvolvimento da WRW, plataforma de networking com IA para empreendedoras. Também trabalho como freelancer full stack, entregando sites de alta performance, aplicativos com React Native/Expo e automações de processos.',
-      'Atendo clientes em português, inglês e espanhol.',
+      'Sou membro do Conselho de IA da Associação Comercial do DF e atendo clientes em português, inglês e espanhol.',
     ],
     avatarAlt: 'Foto de perfil de Roberto',
   },
@@ -50,11 +50,17 @@ export const pt: Content = {
           'Sites de alta performance, landing pages e automações para clientes, em Python e JavaScript/TypeScript — atendimento em português, inglês e espanhol.',
       },
       {
-        period: 'Jun 2020 — 2026',
+        period: '2017 — 2026',
         role: 'Professor de Inglês',
         org: 'Casa Marytza Macedo e Joyful Village',
         description:
           'Aulas individuais, em grupo e para empresas, online e presenciais; criação de materiais e de um curso preparatório para o Duolingo English Test.',
+      },
+      {
+        period: '2021 — Atual',
+        role: 'Membro',
+        org: 'Conselho de IA e ACDF Jovem · Associação Comercial do DF',
+        description: 'Participação em programas e eventos de tecnologia e inovação.',
       },
     ],
   },

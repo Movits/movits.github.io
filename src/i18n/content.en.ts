@@ -22,7 +22,7 @@ export const en: Content = {
     paragraphs: [
       "I'm a full stack developer based in Brasília, Brazil, with 3+ years building bots, automations and integrations in Python and JavaScript/TypeScript.",
       "I currently work as a programming intern at the Legislative Chamber of the Federal District (Project Advisory Office — ASSEPRO, People Management), supporting the architecture and testing of an internal tool, and I lead development of WRW, an AI networking platform for women entrepreneurs. I also work as a freelance full stack developer, delivering high-performance websites, React Native/Expo apps and process automation.",
-      'I work with clients in Portuguese, English and Spanish.',
+      "I'm a member of the AI Council of the Federal District Trade Association, and I work with clients in Portuguese, English and Spanish.",
     ],
     avatarAlt: "Roberto's profile picture",
   },
@@ -50,11 +50,17 @@ export const en: Content = {
           'High-performance websites, landing pages and automations for clients, in Python and JavaScript/TypeScript — serving clients in Portuguese, English and Spanish.',
       },
       {
-        period: 'Jun 2020 — 2026',
+        period: '2017 — 2026',
         role: 'English Teacher',
         org: 'Casa Marytza Macedo & Joyful Village',
         description:
           'One-on-one, group and corporate classes, online and in person; created teaching materials and a Duolingo English Test prep course.',
+      },
+      {
+        period: '2021 — Present',
+        role: 'Member',
+        org: 'AI Council & ACDF Jovem · Federal District Trade Association',
+        description: 'Participation in technology and innovation programs and events.',
       },
     ],
   },

@@ -1,13 +1,12 @@
 import type { CSSProperties } from 'react'
 import { Section } from '../components/Section'
-import { GitHubIcon, LinkedInIcon, MailIcon, WorkanaIcon } from '../components/Icons'
-import { EMAIL, GITHUB_URL, LINKEDIN_URL, WORKANA_URL } from '../data/site'
+import { GitHubIcon, LinkedInIcon, MailIcon } from '../components/Icons'
+import { EMAIL, GITHUB_URL, LINKEDIN_URL } from '../data/site'
 import { useLanguage } from '../i18n/LanguageContext'
 
 const SOCIAL_LINKS = [
   { label: 'GitHub', url: GITHUB_URL, Icon: GitHubIcon },
   { label: 'LinkedIn', url: LINKEDIN_URL, Icon: LinkedInIcon },
-  { label: 'Workana', url: WORKANA_URL, Icon: WorkanaIcon },
 ] as const
 
 export function Contact() {
