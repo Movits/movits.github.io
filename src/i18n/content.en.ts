@@ -21,7 +21,7 @@ export const en: Content = {
     title: 'About me',
     paragraphs: [
       "I'm a full stack developer based in Brasília, Brazil, with 3+ years building bots, automations and integrations in Python and JavaScript/TypeScript.",
-      "I currently work as a programming intern at the Legislative Chamber of the Federal District (Project Advisory Office — ASSEPRO, People Management), supporting the architecture and testing of an internal tool, and I lead development of WRW, an AI networking platform for women entrepreneurs. I also work as a freelance full stack developer, delivering high-performance websites, React Native/Expo apps and process automation.",
+      "I currently work as a programming intern at the Legislative Chamber of the Federal District (Project Advisory Office — ASSEPRO, People Management), supporting the architecture and testing of an internal tool, and I lead the development team at WRW, a business networking platform in 10 languages. I also work as a freelance full stack developer, delivering high-performance websites, React Native/Expo apps and process automation.",
       "I'm a member of the AI Council of the Federal District Trade Association, and I work with clients in Portuguese, English and Spanish.",
     ],
     avatarAlt: "Roberto's profile picture",
@@ -34,17 +34,17 @@ export const en: Content = {
         role: 'Full Stack Developer & Project Lead',
         org: 'WRW — Women Rocking the World',
         description:
-          'I lead a team of 4 developers and the client relationship for an AI networking platform for women entrepreneurs (React, tRPC, MySQL and Google Gemini). First version delivered on Sep 16, 2026.',
+          'I lead a team of three developers on a business networking platform in 10 languages (TypeScript, React, Node.js and MySQL). I organized the scope in Notion, documented the architecture, set up the GitHub flow with CI and deployed the system with Docker.',
       },
       {
         period: 'Jun 2026 — Present',
         role: 'Programming Intern',
         org: 'Legislative Chamber of the Federal District · ASSEPRO, People Management',
-        description: 'Supporting the architecture and testing of an internal tool used at the Chamber.',
+        description: 'Working on the architecture and testing of an internal tool at the Chamber.',
       },
       {
-        period: '2025 — Present',
-        role: 'Freelance Full Stack Developer',
+        period: 'Jan 2025 — Present',
+        role: 'Freelance Developer',
         org: 'Direct clients',
         description:
           'High-performance websites, landing pages and automations for clients, in Python and JavaScript/TypeScript — serving clients in Portuguese, English and Spanish.',

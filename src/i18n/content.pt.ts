@@ -21,7 +21,7 @@ export const pt: Content = {
     title: 'Sobre mim',
     paragraphs: [
       'Sou desenvolvedor full stack baseado em Brasília, com mais de 3 anos criando bots, automações e integrações em Python e JavaScript/TypeScript.',
-      'Atualmente sou estagiário de programação na Câmara Legislativa do DF (Assessoria de Projetos — ASSEPRO, Gestão de Pessoas), apoiando a arquitetura e os testes de uma ferramenta interna, e lidero o desenvolvimento da WRW, plataforma de networking com IA para empreendedoras. Também trabalho como freelancer full stack, entregando sites de alta performance, aplicativos com React Native/Expo e automações de processos.',
+      'Atualmente sou estagiário de programação na Câmara Legislativa do DF (Assessoria de Projetos — ASSEPRO, Gestão de Pessoas), apoiando a arquitetura e os testes de uma ferramenta interna, e lidero a equipe de desenvolvimento da WRW, plataforma de networking de negócios em 10 idiomas. Também trabalho como freelancer full stack, entregando sites de alta performance, aplicativos com React Native/Expo e automações de processos.',
       'Sou membro do Conselho de IA da Associação Comercial do DF e atendo clientes em português, inglês e espanhol.',
     ],
     avatarAlt: 'Foto de perfil de Roberto',
@@ -34,17 +34,17 @@ export const pt: Content = {
         role: 'Desenvolvedor Full Stack e Líder de Projeto',
         org: 'WRW — Women Rocking the World',
         description:
-          'Lidero uma equipe de 4 desenvolvedores e a comunicação com a cliente em uma plataforma de networking com IA para empreendedoras (React, tRPC, MySQL e Google Gemini). Primeira versão entregue em 16/09/2026.',
+          'Lidero uma equipe de três desenvolvedores em uma plataforma de networking de negócios em 10 idiomas (TypeScript, React, Node.js e MySQL). Organizei o escopo no Notion, documentei a arquitetura, defini o fluxo no GitHub com CI e coloquei o sistema no ar com Docker.',
       },
       {
         period: 'Jun 2026 — Atual',
         role: 'Estagiário de Programação',
         org: 'Câmara Legislativa do DF · ASSEPRO, Gestão de Pessoas',
-        description: 'Apoio à arquitetura e aos testes de uma ferramenta interna usada na Câmara.',
+        description: 'Trabalho na arquitetura e nos testes de uma ferramenta interna da Câmara.',
       },
       {
-        period: '2025 — Atual',
-        role: 'Desenvolvedor Full Stack Freelancer',
+        period: 'Jan 2025 — Atual',
+        role: 'Desenvolvedor Freelancer',
         org: 'Clientes diretos',
         description:
           'Sites de alta performance, landing pages e automações para clientes, em Python e JavaScript/TypeScript — atendimento em português, inglês e espanhol.',
