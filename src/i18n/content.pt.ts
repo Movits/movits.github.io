@@ -50,9 +50,9 @@ export const pt: Content = {
           'Sites de alta performance, landing pages e automações para clientes, em Python e JavaScript/TypeScript — atendimento em português, inglês e espanhol.',
       },
       {
-        period: '2021 — Atual',
+        period: '2026 — Atual',
         role: 'Membro',
-        org: 'Conselho de IA e ACDF Jovem · Associação Comercial do DF',
+        org: 'Conselho de IA · Associação Comercial do DF',
         description: 'Participação em programas e eventos de tecnologia e inovação.',
       },
     ],

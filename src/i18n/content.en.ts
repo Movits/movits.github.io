@@ -50,9 +50,9 @@ export const en: Content = {
           'High-performance websites, landing pages and automations for clients, in Python and JavaScript/TypeScript — serving clients in Portuguese, English and Spanish.',
       },
       {
-        period: '2021 — Present',
+        period: '2026 — Present',
         role: 'Member',
-        org: 'AI Council & ACDF Jovem · Federal District Trade Association',
+        org: 'AI Council · Federal District Trade Association',
         description: 'Participation in technology and innovation programs and events.',
       },
     ],
