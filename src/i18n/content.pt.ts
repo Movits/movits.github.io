@@ -21,7 +21,7 @@ export const pt: Content = {
     title: 'Sobre mim',
     paragraphs: [
       'Sou desenvolvedor full stack baseado em Brasília, com mais de 3 anos criando bots, automações e integrações em Python e JavaScript/TypeScript.',
-      'Atualmente sou estagiário de programação na Câmara Legislativa do DF (Assessoria de Projetos — ASSEPRO, Gestão de Pessoas), atuando na arquitetura e nos testes de uma ferramenta interna. Também trabalho como freelancer full stack, entregando sites de alta performance, aplicativos com React Native/Expo e automações de processos.',
+      'Atualmente sou estagiário de programação na Câmara Legislativa do DF (Assessoria de Projetos — ASSEPRO, Gestão de Pessoas), apoiando a arquitetura e os testes de uma ferramenta interna, e lidero a equipe de desenvolvimento da WRW, plataforma de networking de negócios em 10 idiomas. Também trabalho como freelancer full stack, entregando sites de alta performance, aplicativos com React Native/Expo e automações de processos.',
       'Sou membro do Conselho de IA da Associação Comercial do DF e atendo clientes em português, inglês e espanhol.',
     ],
     avatarAlt: 'Foto de perfil de Roberto',
@@ -30,25 +30,30 @@ export const pt: Content = {
     title: 'Experiência',
     items: [
       {
-        period: 'Atual',
+        period: 'Ago 2026 — Atual',
+        role: 'Desenvolvedor Full Stack e Líder de Projeto',
+        org: 'WRW — Women Rocking the World',
+        description:
+          'Lidero uma equipe de três desenvolvedores em uma plataforma de networking de negócios em 10 idiomas (TypeScript, React, Node.js e MySQL). Organizei o escopo no Notion, documentei a arquitetura, defini o fluxo no GitHub com CI e coloquei o sistema no ar com Docker.',
+      },
+      {
+        period: 'Jun 2026 — Atual',
         role: 'Estagiário de Programação',
         org: 'Câmara Legislativa do DF · ASSEPRO, Gestão de Pessoas',
-        description:
-          'Arquitetura e testes de uma ferramenta interna usada na Câmara, participando do ciclo de desenvolvimento de software no setor público.',
+        description: 'Trabalho na arquitetura e nos testes de uma ferramenta interna da Câmara.',
       },
       {
-        period: 'Jan 2024 — Atual',
-        role: 'Desenvolvedor Full Stack Freelancer',
-        org: 'Workana',
+        period: 'Jan 2025 — Atual',
+        role: 'Desenvolvedor Freelancer',
+        org: 'Clientes diretos',
         description:
-          'Sites de alta performance, bots e automações para clientes, em Python e JavaScript/TypeScript — atendimento em português, inglês e espanhol.',
+          'Sites de alta performance, landing pages e automações para clientes, em Python e JavaScript/TypeScript — atendimento em português, inglês e espanhol.',
       },
       {
-        period: '2021 — Atual',
+        period: '2026 — Atual',
         role: 'Membro',
-        org: 'Conselho de IA e ACDF Jovem · Associação Comercial do DF',
-        description:
-          'Participação em programas e eventos de tecnologia e inovação.',
+        org: 'Conselho de IA · Associação Comercial do DF',
+        description: 'Participação em programas e eventos de tecnologia e inovação.',
       },
     ],
   },
@@ -72,7 +77,7 @@ export const pt: Content = {
         id: 'apologetica',
         name: 'APPologética',
         description:
-          'Aplicativo católico de apologética 100% offline e bilíngue: mais de 85 artigos com fontes, Bíblia completa, quiz e ferramentas de oração. Um único codebase React Native + Expo para Android, iOS e web — apps nas lojas em breve.',
+          'Aplicativo católico de apologética bilíngue, com todo o conteúdo disponível offline: 83 artigos com fontes, duas Bíblias completas, quiz e ferramentas de oração. Um único codebase React Native + Expo para Android, iOS e web — apps nas lojas em breve.',
         tags: ['React Native', 'Expo', 'React 19', 'Firebase', 'Sentry', 'i18n PT/EN'],
         repoUrl: 'https://github.com/Movits/apologetica-app',
         liveUrl: 'https://movits.github.io/apologetica-app/',
